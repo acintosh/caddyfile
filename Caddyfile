@@ -1,0 +1,11 @@
+example.com {
+	gzip
+
+	tls email@example.com
+
+	proxy / localhost:3005 {
+		websocket
+		transparent
+	}
+}
+

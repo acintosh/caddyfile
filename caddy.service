@@ -1,0 +1,14 @@
+[Unit]
+Description = caddy web server daemon.
+
+
+[Service]
+User = caddy
+Group = caddy
+ExecStart = /opt/caddy/start.sh
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
+
