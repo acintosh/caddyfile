@@ -1,6 +1,11 @@
 # Caddyfile
 
 ## Usage
+0. Install caddy
+```
+curl https://getcaddy.com | bash -s personal
+```
+
 1. Clone
 ```
 sudo git clone https://github.com/acintosh/caddyfile /opt/caddy
