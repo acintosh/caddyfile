@@ -22,7 +22,7 @@ sudo cp ./caddy.service /etc/systemd/system/
 sudo useradd caddy -s /sbin/nologin -r
 ```
 
-4. Set permission. #! You need to replace $(which caddy)
+4. Set permission.
 ```
 sudo chmod 600 ./Caddyfile
 sudo chmod 600 ./start.sh
